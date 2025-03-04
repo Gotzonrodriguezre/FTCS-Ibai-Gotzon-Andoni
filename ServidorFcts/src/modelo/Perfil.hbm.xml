@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 4 mar 2025, 10:26:20 by Hibernate Tools 6.5.1.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class catalog="almacen" name="modelo.Perfil" optimistic-lock="none" table="perfil">
+        <id name="id" type="java.lang.Integer">
+            <column name="id"/>
+            <generator class="identity"/>
+        </id>
+        <property name="nombre" type="string">
+            <column length="255" name="nombre" not-null="true"/>
+        </property>
+        <property name="clave" type="string">
+            <column length="100" name="clave" not-null="true"/>
+        </property>
+        <property name="foto" type="binary">
+            <column name="foto"/>
+        </property>
+        <property name="estado" type="string">
+            <column length="8" name="estado" not-null="true"/>
+        </property>
+        <property name="tipo" type="string">
+            <column length="100" name="tipo"/>
+        </property>
+    </class>
+</hibernate-mapping>
