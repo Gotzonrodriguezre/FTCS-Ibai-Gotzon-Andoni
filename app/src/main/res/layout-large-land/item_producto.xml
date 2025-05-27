@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/fotoProducto"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <TextView
+
+            android:id="@+id/avisoMinimo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¡Mínimo alcanzado!"
+            android:textColor="@color/colorTexto"
+            android:textSize="45sp"
+            android:visibility="gone"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/nombreProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Producto"
+            android:textColor="@color/colorTexto"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/cantidadProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cantidad: 0"
+            android:textColor="@color/colorTexto"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnSumar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@android:drawable/ic_input_add" />
+
+        <ImageButton
+            android:id="@+id/btnRestar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@android:drawable/ic_input_delete" />
+    </LinearLayout>
+
+</LinearLayout>

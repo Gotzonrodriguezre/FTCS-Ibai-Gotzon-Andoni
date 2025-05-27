@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/fotoAlbaran"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/nombreAlbaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Albaran"
+            android:textColor="@color/colorTexto"
+            android:textSize="35sp" />
+        <TextView
+            android:id="@+id/precioAlbaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio"
+            android:textColor="@color/colorTexto"
+            android:textSize="35sp" />
+        <TextView
+            android:id="@+id/cifAlbaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CIF"
+            android:textColor="@color/colorTexto"
+            android:textSize="35sp" />
+        <TextView
+            android:id="@+id/cantidadAlbaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cantidad"
+            android:textColor="@color/colorTexto"
+            android:textSize="35sp" />
+        <TextView
+            android:id="@+id/estadoAlbaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Albaran"
+            android:textColor="@color/colorTexto"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

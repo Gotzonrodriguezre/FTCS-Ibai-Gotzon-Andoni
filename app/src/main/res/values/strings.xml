@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="ip_base_url"> httpss://5a90-62-99-105-65.ngrok-free.app/</string>
+    //http://192.168.1.10:8080/
+
+</resources>
